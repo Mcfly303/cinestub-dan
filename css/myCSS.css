@@ -1,0 +1,330 @@
+			body {
+		        padding-top: 60px;
+		        padding-bottom: 40px;
+		      }
+		    
+		    .sidebar-nav {
+		        padding: 9px 0;
+		        /*max-width:193px;*/
+		      }
+
+		    
+		    @media (max-width: 980px) {
+		        /* Enable use of floated navbar text */
+		        .navbar-text.pull-right {
+		          float: none;
+		          padding-left: 5px;
+		          padding-right: 5px;
+		        }
+
+		    									/*CAROUSEL*/
+		         .carousel .item {
+		        	height: 300px;
+			      }
+			      .carousel img {
+			        width: auto;
+			        height: 300px;
+			      }
+
+		     
+			}
+
+			@media (max-width: 767px) {
+
+		      /*.navbar-inner {
+		        margin: -20px;
+		      }*/
+
+		      .carousel {
+		        margin-left: -20px;
+		        margin-right: -20px;
+		      }
+		      .carousel .container {
+
+		      }
+		      .carousel .item {
+		        height: 300px;
+		      }
+		      .carousel img {
+		        height: 300px;
+		      }
+		      .carousel-caption {
+		        width: 65%;
+		        padding: 0 70px;
+		        margin-top: 100px;
+		      }
+		      .carousel-caption h1 {
+		        font-size: 30px;
+		      }
+		      .carousel-caption .lead,
+		      .carousel-caption .btn {
+		        font-size: 18px;
+		      }
+
+		     
+
+		      }
+											/*end of carousel*/
+
+			
+			   	 								/*BOXES*/   
+		    /*
+		    #contentContainer {
+			    background-color: #EFE;
+			    border-color: #CDC;
+			    height:3000px;
+			    text-align: center;
+			    border: 1px solid;
+			    display:block;
+			    			}
+			.stubTitle {
+				background-color: #0FF;
+			    border-color: #CDC;
+			    text-align: left;
+			    border: 1px solid;
+			    line-height: 38px;
+			}
+
+			.stub {
+				background-color: #F66;
+			    border-color: #CDC;
+			    text-align: center;
+			    border: 1px solid;
+			}
+
+			.stubRatingYear{
+				background-color: #C03;
+			    border-color: #CDC;
+			    text-align: center;
+			    border: 1px solid;
+			}
+
+			.mainList{
+				background-color: #CF3;
+			    border-color: #CDC;
+			    border: 1px solid;
+			}
+
+			.numberOtherLists{
+				background-color: #F3C;
+			    border-color: #CDC;
+			    border: 1px solid;
+			}
+
+			.averageRating{
+				background-color: #393;
+			    border-color: #CDC;
+			    border: 1px solid;
+			}
+
+			.stubContent{
+				background-color: #033;
+				color:white;
+			    border-color: #CDC;
+			    text-align: center;
+			    border: 1px solid;
+			}*/
+			
+		   	 								/*END BOXES*/   
+
+
+											/*GERNERAL*/
+		    .navbar .brand {
+		    	padding-top: 0px;
+		    	padding-bottom: 0px;
+		    }
+
+
+
+			.stub {
+				max-width: 540px;
+				padding: 10px 0px 10px 0px;
+				margin-bottom:30px;
+				background-color: #022537;
+				border-radius: 5px;
+			}
+
+			.canonBtn {
+				text-align: right;
+				margin-top: 3px;
+				padding-right: 5px;
+			}
+
+			.stubTitle h2, .stubTitle h2 a {
+				line-height:30px;
+    			margin: 0px 0px 8px 0px;
+			}
+
+			.stubTitle .accordion-toggle {
+				padding: 0px 0px 0px 5px;
+			}
+
+			.mainList, .mainList a, .restub a, .addContent a, .stubTitle h2, .stubTitle h2 a {
+				color:white;
+				width: 100%;
+			    overflow:hidden;
+    			white-space:nowrap;
+    			text-overflow: ellipsis;
+    		}
+
+			
+			.rating, .avail {
+				text-align: right;
+			}
+
+			.avail { 
+				padding-top:3px;
+			}
+
+			
+			.mainList, .averageRating, .year, .year a, .averageRating a{
+			    text-align: right;
+			    color: white;
+			}
+			
+			.stubContent{
+				height: 300px;
+				padding: 0px 0px 0px 0px;
+			}
+
+			.restub {
+				text-align: left;
+			    color: white;
+			    max-height: 20px;
+			    padding-left: 5px;
+			}
+
+			.addContent {
+				text-align: right;
+			    color: white;
+			    max-height: 20px;
+			    padding-right: 5px;
+			}
+
+			.stubHeader {
+				margin-bottom: -20px;
+			}
+			
+			.stubHeader .accordion-group, .stubheader .accordion-inner, #accordionMain .accordion-group {
+				border: none;
+				}			
+
+			#stubStrip {
+				background-color: #6b6b6b;
+				max-width: 500px;
+				min-width:540px;
+				padding: 20px 30px 20px 30px;
+				border-radius: 4px;
+				background-image: -moz-linear-gradient(top, #6b6b6b, #e1e1e1);
+				background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#6b6b6b), to(#e1e1e1));
+				background-image: -webkit-linear-gradient(top, #6b6b6b, #e1e1e1);
+				background-image: -o-linear-gradient(top, #6b6b6b, #e1e1e1);
+				background-image: linear-gradient(to bottom, #6b6b6b, #e1e1e1);
+				background-repeat: repeat-x;
+
+			}
+
+			.listViewBox {
+				margin-top: -15px;
+			}
+
+			#searchAdd{
+				padding-top: 16px;
+				text-align: right;
+			}
+
+
+
+
+
+									/*END OF GERNERAL*/
+
+
+											/*CANON BUTTON*/
+			.btnCustom.active {
+			  color: #ffffff;
+			  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+			  background-color: #38abd8;
+			  background-image: -moz-linear-gradient(top, #45b4df, #239ece);
+			  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#45b4df), to(#239ece));
+			  background-image: -webkit-linear-gradient(top, #45b4df, #239ece);
+			  background-image: -o-linear-gradient(top, #45b4df, #239ece);
+			  background-image: linear-gradient(to bottom, #45b4df, #239ece);
+			  background-repeat: repeat-x;
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff45b4df', endColorstr='#ff239ece', GradientType=0);
+			  border-color: #239ece #239ece #186c8c;
+			  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+			  *background-color: #38abd8;
+			  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+			    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+			}
+			.btnCustom {
+			  color: #ffffff;
+			  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+			  background-color: #cbeaf6;
+			  background-image: -moz-linear-gradient(top, #cbeaf6, #aadcf0);
+			  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cbeaf6), to(#aadcf0));
+			  background-image: -webkit-linear-gradient(top, #cbeaf6, #aadcf0);
+			  background-image: -o-linear-gradient(top, #cbeaf6, #aadcf0);
+			  background-image: linear-gradient(to bottom, #cbeaf6, #aadcf0);
+			  background-repeat: repeat-x;
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff45b4df', endColorstr='#ff239ece', GradientType=0);
+			  border-color: #aadcf0 #aadcf0 #186c8c;
+			  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+			  *background-color: #aadcf0;
+			  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+			    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+			  
+				}
+			
+			.btnCustom:hover,
+			.btnCustom:focus,
+			.btnCustom:active,
+			.btnCustom.active,
+			.btnCustom.disabled,
+			.btnCustom[disabled] {
+				  color: #ffffff;
+				  background-color: #aadcf0;
+				  *background-color: #aadcf0;
+				  outline: none;
+				}
+			
+			.btnCustom:active,
+			.btnCustom.active {
+				  background-color: #239ece;
+
+				}
+											/*END OF CANON BUTTON*/
+
+
+
+											/*SIDEBAR COLLAPSE*/
+
+			.use-sidebar #contentContainer {
+				width: 65%;
+			}
+
+			.use-sidebar #sidebar {
+				max-width:193px;
+				width: 32%;
+				display: block;
+			}
+
+			.use-sidebar.sidebar-at-left #contentContainer {float:right;}
+			.use-sidebar.sidebar-at-left #sidebar, .sidebar-at-left #separator {float: left;}
+
+			#separator {
+			    background-color: #EEE;
+			    border: 1px solid #CCC;
+			    display: block;
+			    outline: none;
+			    width: 1%;
+			}
+			.use-sidebar #separator {
+			    background: url('img/vertical-separator.gif') repeat-y center top;
+			    border-color: #FFF;
+			}
+			#separator:hover {
+			    border-color: #ABC;
+			    background: #DEF;
+			}

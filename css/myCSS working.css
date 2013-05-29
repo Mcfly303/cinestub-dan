@@ -1,0 +1,437 @@
+/*misc*/
+			body {
+		        padding-top: 60px;
+		        padding-bottom: 40px;
+		       
+		      }
+
+		    body,
+			input,
+			button,
+			select,
+			textarea,
+			.navbar-search .search-query {
+				 font-family: 'Lato', sans-serif !important;
+			}
+		    
+		    .sidebar-nav {
+		        padding: 9px 0;
+		        /*max-width:193px;*/
+		      }
+
+		    
+		    @media (max-width: 980px) {
+		        /* Enable use of floated navbar text */
+		        .navbar-text.pull-right {
+		          float: none;
+		          padding-left: 5px;
+		          padding-right: 5px;
+		        }
+		    }
+
+/*CAROUSEL*/
+		         /*.carousel .item {
+		        	height: 300px;
+			      }
+			      .carousel img {
+			        width: auto;
+			        height: 300px;
+			      }*/
+
+			@media (max-width: 767px) {
+
+		      /*.navbar-inner {
+		        margin: -20px;
+		      }*/
+
+		      .carousel {
+		        margin-left: -20px;
+		        margin-right: -20px;
+		      }
+
+		      .carousel .container {
+
+		      }
+		      /*.carousel .item {
+		        height: 300px;
+		      }
+		      .carousel img {
+		        height: 300px;
+		      }*/
+		      .carousel-caption {
+		        width: 65%;
+		        padding: 0 70px;
+		        margin-top: 100px;
+		      }
+		      .carousel-caption h1 {
+		        font-size: 30px;
+		      }
+		      .carousel-caption .lead,
+		      .carousel-caption .btn {
+		        font-size: 18px;
+		      }
+
+		     
+
+		      }
+/*end of carousel*/
+
+			
+/*BOXES*/   
+		    
+		    		 
+			 /*#mainFrame{
+			    background-color: #FCC;
+			    border-color: #CDC;
+			    height:3000px;
+			    border: 1px solid;			 }*/
+			 
+			 /*#navFrame{
+			    background-color: #EFE;
+			    border-color: #CDC;
+			    /*height:3000px;
+			    border: 1px solid;			}*/
+
+			#stubsFrame{
+			    background-color: white;
+			    border-color: white;
+			    /*height:3000px;*/
+			    border: 1px solid;
+			    		}
+
+			/*#avatar{
+			    background-color: #c3c3ff;
+			    border-color: #CDC;
+			    height:100px;
+			    border: 1px solid;			}*/
+
+			 /*#frameButtons{
+			    background-color: #dbefbd;
+			    border-color: #CDC;
+			    width: 60px;
+			    border: 1px solid;
+			    height: 260px;			}*/
+
+			 /*#breadCrumble{
+			    background-color: #ff2349;
+			    border-color: #CDC;
+			    border: 1px solid;
+			    height: 60px;			}*/
+
+			 /*.stubs{
+			    background-color: #0000ff;
+			    border-color: #CDC;
+			    border: 1px solid;
+			    /*height:500px;			 }*/
+
+/*end of boxes*/
+
+
+/*NAV BAR*/
+
+
+/*end NAV BAR*/   
+																
+
+		
+
+/*GENERAL*/
+		    .navbar .brand  {
+		    	padding-top: 0px !important;
+		    	padding-bottom: 0px !important;
+		    }
+
+		    
+		     #avatar{
+			    background-color: #022537;
+			    height:100px;
+			}
+
+		     #stubsFrame{
+		     	margin-left: 0px;
+		     	position:relative;
+		     	padding:0px !important;
+		     	top:100px
+		     	
+		     }
+
+		     #navFrame{
+		     	width:100px;
+		     	position:relative;
+		     }
+			
+			#mainFrame{
+			    min-width:600px; /* suppose you want minimun width of 1000px */
+	   			width: auto !important;  /* Firefox will set width as auto */
+	   			width:600px;             
+			}
+
+			#avatar{
+			 	position:relative;
+			}
+
+			#frameButtons1{
+				position: absolute;
+				float:right;
+				top:120px;
+				left: 52px;
+				
+				z-index:8;
+			}
+
+			/*.frameButtons1:hover .hoverimage {
+				display:block;
+				
+			}*/
+
+			.frameButtons2{
+				position: absolute;
+				float:right;
+				top:167px;
+				left: 52px;
+				width: 48px;
+				z-index:7;
+			}
+
+			.frameButtons2:hover .hoverimage {
+				display:block;
+				
+			}
+
+			
+
+			#frameButtons3{
+				position: absolute;
+				float:right;
+				top:214px;
+				left: 52px;
+				
+				z-index:6;
+			}
+
+
+
+			.icon-sort {
+				/*color: black;
+				margin-left: -20px;
+				z-index: 8;*/
+			}
+
+			.frameButtons4{
+				position: absolute;
+				float:right;
+				top:261px;
+				left: 52px;
+				width: 48px;
+				z-index:5;
+			}
+
+			/*.frameButtons4:hover .hoverimage {
+				display:block;
+				
+			}*/
+
+			.hoverimage{
+				position:absolute;
+				top: 0;
+				left: 0;
+				display:none;
+			}
+
+			
+			.stubs {
+				position:absolute;
+				/*margin-top:5px;*/
+				top:0px;
+				margin-left: 0px !important;
+			}
+
+			
+			.breadcrumbs {
+				font-size: 24px;
+				font-weight: 100;
+				  padding: 60px 0px 0px 20px;
+				  margin: 0px 0px 10px 0px;
+				  list-style: none;
+				  /*background-color: #f5f5f5;
+				  -webkit-border-radius: 4px;
+				     -moz-border-radius: 4px;
+				          border-radius: 4px;*/
+				}
+
+				.breadcrumbs > li {
+				  display: inline-block;
+				  *display: inline;
+				  text-shadow: 0 1px 0 #ffffff;
+				  *zoom: 1;
+				}
+
+				.breadcrumbs > li > .divider {
+				  padding: 0 5px;
+				  color: #022537;
+				  /*color: #ccc;*/
+				}
+
+				.breadcrumbs > .active {
+				  color: #022537;
+				}
+			
+			.stubHead {
+				background-color: #022537;
+				border: none;
+				font-size:24px;
+				padding: 5px 0px 5px 0px;
+				margin-left: 0px;
+
+				
+			}
+
+			.stubTitle {padding-left: 5px;}
+			
+			.stubTitle, .stubTitle a, .stubTitle a:hover, .stubTitle a:focus, .theIcons a, .mainlist, .mainlist a {
+				color:white;
+				width: 100%;
+			    overflow:hidden;
+    			white-space:nowrap;
+    			text-overflow: ellipsis;
+			}
+
+
+
+			.theIcons {
+				padding-right:5px;
+			}
+
+			.theIcons a:hover {
+				text-decoration: none;
+				color: #022537;
+
+			}
+
+			#editIcon, #restubIcon, #canonIcon, #inviteIcon {
+				color: white;
+				
+			}
+
+			.theIcons a [class^="icon-"], .theIcons a [class*=" icon-"] {
+				float:right;
+				display:inline;
+				padding-right:10px;
+				padding-top: 5px;
+			}
+
+			.theIcons a [class^="icon-edit"], .theIcons a [class*=" icon-edit"] {
+			    margin-top: 2px;
+			    margin-left: 5px;
+			}
+
+			.theIcons a:active [class^="icon-"], .theIcons a:active [class*=" icon-"] {
+				color: #45b4df;
+			}
+
+			
+
+			.stubInfo {
+				position: relative;
+				z-index: 2 !important;
+				/*top:90px;*/
+			}
+
+			/*.mainlist a{
+				position:absolute;
+			}*/
+
+			.stubInfoInfo, .stubInfoInfo div a {
+				z-index: 4 !important;
+				position:relative;
+				/*margin-top: -90px;*/
+				/*color: white;*/
+
+			}
+
+			.stubInfoBackground {
+				z-index: 3;
+		        color: #000;
+		        background-color: #000;
+		        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+		        filter: alpha(opacity=50);
+		        opacity: 0.5;
+		        height:100px;
+		        margin-top:-71px;
+		        width:100%;
+			}
+
+			.carousel {	
+				margin-bottom: 0px !important;
+			}
+
+			/*.accordionOveride {
+				padding: 0px !important;
+				margin-left: 0px;
+				/*margin-top: -10px;
+			}*/
+
+			#bigguy {
+				margin-left:10px;
+			}
+			
+			#navFrame {
+				font-weight: bold;
+			}
+
+
+/*END OF GERNERAL*/
+
+			/*#test {
+				width:48px;
+				position: relative;
+			}*/
+
+
+
+/*Toggle Button*/
+
+			.toggleBtn {
+				background: #ccc;
+				border: none;
+				width: 48px;
+				height: 45px;
+				text-indent: -900em;
+				overflow: hidden;
+				position: relative;
+				cursor: pointer;
+				outline: none;
+			}
+
+			.toggleBtn:hover {
+				background: #aaa;
+				border: none;
+			}
+
+			.toggleBtn:after {
+				content: '';
+				position: absolute;
+				width: 68%;
+				height: 5px;
+				background: #000;
+				top: 10px;
+				left: 16%;
+				box-shadow: 
+					0 10px 0 #000,
+					0 15px 0 #000, 
+					0 20px 0 #000;
+			}
+
+			.toggleBtn.down:after {
+				background: #000;
+				border:none;
+				box-shadow: 
+					0 10px 0 #bbb,
+					0 15px 0 #bbb, 
+					0 20px 0 #bbb;
+			}
+/*ENDToggle Button*/
+
+
+
+

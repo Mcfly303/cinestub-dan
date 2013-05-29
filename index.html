@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>USER MyStubs</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<link href="css/ResponsiveMultiLevelMenu.css" rel="stylesheet">
+		
+		<!--<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">-->
+		<link href="css/myCSS working.css" rel="stylesheet" media="screen">
+		<!--<link href="css/bootstrap-responsive.css" rel="stylesheet">-->
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,400,700,400italic' rel='stylesheet' type='text/css'>
+		
+		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+
+
+		
+
+		<script src="js/modernizr.custom.js"></script>
+
+	</head>
+
+	<body style="background-image:url(img/background/pw_maze_white.png); background-repeat:repeat">
+
+<!--*************************************************************************NAVBAR TOP***************-->
+		
+				<div class="navbar navbar-inverse navbar-fixed-top">
+				    <div class="navbar-inner">
+				        <div class="container-fluid">
+				          	<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+					            <span class="icon-bar"></span>
+				          	</button>
+				          
+				          	<a class="brand" href="#"><img id="Logo" src="img/CineStub-Logo-40px-tall.png" alt="CineStub logo"/></a>
+				          
+					        <!--<div class="nav-collapse collapse">-->
+					        <div>
+					            <p class="navbar-text pull-right">
+					              Logged in as <a href="#" class="navbar-link">Username</a>
+					            </p>
+					            <ul class="nav">
+					              <li class="active"><a href="#">Home</a></li>
+					              <li><a href="#following">Following</a></li>
+					              <li><a href="#browse">Browse</a></li>
+					            </ul>
+					        </div><!--/.nav-collapse -->
+					    </div>
+				    </div>
+				 </div>
+
+<!--*************************************************************************BELOW NAV***************-->
+
+				<div class="container-fluid" id="mainFrame">
+					
+									
+
+
+						<div class="row-fluid">
+							<div data-spy="afix" class="span1 offset1" id="navFrame">
+								<div class="row-fluid">
+									<div class="span12" id="avatar">
+										<img src="img/avatar Dino.png"/>
+									</div>
+
+									<div class="clearfix demo-6" id="frameButtons1">
+
+										<div id="dl-menu" class="dl-menuwrapper">
+										    <button>Open Menu</button>
+										    <ul class="dl-menu">
+										        <li><a href="#">MY STUBS</a></li>
+										        <li><a href="#">MY QUEUE</a></li>
+										        <li>
+										            <a href="#">MY LISTS</a>
+										            <ul class="dl-submenu">
+										                <li class="dl-back"><a href="#">back</a></li>			            
+										                <li><a href="#">All Time Top 10</a></li>
+										                <li><a href="#">Ultimate Crime Capers</a></li>
+										                <li><a href="#">Best Performances</a></li>
+										            </ul>
+										        </li>
+										    </ul>
+
+										    										    
+										</div><!-- /dl-menuwrapper -->
+
+									
+									
+									</div>
+									
+									<div class="frameButtons2">
+											<a href="#addModal" role="button" data-toggle="modal">
+												<img src="img/icons/icon-add.png" alt="add content"/>
+												<img class="hoverimage" src="img/icons/icon-add-grey.png" alt="add content"/>
+											</a>
+
+<!--********************modal-->
+											<div id="addModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+												<div class="modal-header">
+													<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+														<h3 id="myModalLabel">Modal header</h3>
+												</div>
+												<div class="modal-body">
+													<p>One fine body…</p>
+												</div>
+												<div class="modal-footer">
+													<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+													<button class="btn btn-primary">Save changes</button>
+												</div>
+											</div>
+<!--********************ENDmodal-->
+
+
+									</div>
+
+									<div class="clearfix demo-7" id="frameButtons3">
+
+										<div id="dl-menu2" class="dl-menuwrapper">
+										    <button>Open Menu</button>
+										    <ul class="dl-menu">
+										        <li><a href="#">by CANON</a></li>
+										        <li><a href="#">by RECENT</a></li>
+										        <li><a href="#">by AVAILABILITY</a></li>
+										        <li>
+										            <a href="#">more</a>
+										            <ul class="dl-submenu">
+										                <li class="dl-back"><a href="#">back</a></li>			            
+										                <li><a href="#">by TALENT</a></li>
+										                <li><a href="#">by TAGS</a></li>
+										                <li><a href="#">by GENRE</a></li>
+										            </ul>
+										        </li>
+										    </ul>
+
+										    										    
+										</div><!-- /dl-menuwrapper -->
+
+									
+									
+									</div>
+
+									<div class="frameButtons4">
+
+										<button class="toggleBtn" title="toggleBtn" data-toggle="collapse" href="#collapseMain">toggle view
+												 
+
+												<!--<img src="img/icons/icon-toggle.png" alt="toggle"/>
+												<img class="hoverimage" src="img/icons/icon-toggle-grey.png" alt="toggle"/>-->
+										</button>
+
+									</div>
+								
+								</div>
+									
+							
+							</div>
+
+<!--********************************************STUBSFRAME******-->
+
+<div class="container-fluid" >
+							<div data-spy="afix" class="span8" id="bigguy">
+								<div class="row-fluid">
+									<div class="span12" id="breadCrumble">
+										<ul class="breadcrumbs">
+											<li><a href="#">USERNAME</a><span class="divider">/</span></li>
+											<li><a href="#">myStubs</a><span class="divider">/</span></li>
+											<li><a href="#">most recent</a><span class="divider">/</span></li>
+										</ul>
+									</div>
+
+									<div class="container-fluid" id="stubsFrame">
+											<div class="span12 stubs">
+
+												<div class="row-fluid stubHead">
+													<div class="span8 accordion-heading stubTitle">
+														<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne">
+															COOL HAND LUKE
+														</a>
+													</div>
+
+													<div class="span4 theIcons">
+														<a href="#" id="canonIcon"><i class="icon-asterisk icon-medium"></i></a>
+														<a href="#" id="restubIcon"><i class="icon-retweet icon-medium"></i></a>
+														<a href="#" id="editIcon"><i class="icon-edit icon-medium"></i></a>
+														<a href="#" id="inviteIcon"><i class="icon-envelope icon-medium"></i></a>	
+													
+													</div>
+
+
+												</div>
+													
+												<div id="collapseOne" class="accordion-body collapse">
+														<div class="accordion-inner">
+															<div class="stubInfo">
+																
+
+																<div class="stubInfoInfo">
+
+																	<div class="mainList"><a href="#">Paul Newman Movies</a> <a href="#"> <i class="icon-white icon-th-list"></i></a>
+																	</div>
+																			
+																	<div class="averageRating"><a href="#">Canonized: 74%</a>
+																	</div>
+																			
+																	<div class="avail">
+																			<a href="https://www.fandango.com" target="_blank"><button class="btn btn-inverse btn-mini"><i class="icon-white icon-film"></i></button></a>
+																			<a href="https://amazon.com" target="_blank"><img src="img/AmazonInstant_icon_20x20.jpg"/></a>
+																			<a href="https://netflix.com" target="_blank"><img src="img/netflix_icon_20x20.jpg"/></a>
+																	</div>
+																	
+
+
+																</div>
+																
+																<div class="stubInfoBackground">
+																</div>
+																
+															</div>
+														</div>
+												</div>
+
+											</div><!--end of Stubs CLASS-->
+							<!--<div class="stubContent">
+							<img src="img/butch.jpg"/>
+							</div>-->
+					
+<!--**********************************************************************************************Stub content-->
+
+											<!--<div id="collapseMain" class="accordion-body collapse in stubContent">
+																	<div class="accordion-inner accordionOveride">-->
+
+																			<div class="row-fluid" id="collapseMain">
+																				<div class="span12">
+																					
+																						<div id="myCarousel1" class="carousel slide" data-interval="false">
+																						      <div class="carousel-inner">
+																						        
+																							        <div class="item active">
+																							        	<img src="img/CoolHand.jpg" alt="">
+																							        </div>
+
+																							        <div class="item">
+																							          	<img src="img/CoolHand2.jpg" alt="">
+																							        </div>
+
+																							        <div class="item">
+																							          	<img src="img/CoolHand3.jpg" alt="">
+																							        </div>
+																						      
+																						      </div>
+																						      		<a class="left carousel-control" href="#myCarousel1" data-slide="prev">&lsaquo;</a>
+																						      		<a class="right carousel-control" href="#myCarousel1" data-slide="next">&rsaquo;</a>
+																						</div>
+																					
+																				</div>
+																			</div>
+													
+																<!--	</div>	
+											</div>  -->
+<!--*******************************************************************************END Stub content-->
+</div><!--end stubsFRAME-->
+							</div><!--end for fluid for breadcrumbs and stub-->
+
+								
+						</div>
+
+			
+				</div><!--end Container fluid stubHEAD to end of CONTENT-->
+					
+
+				</div> <!--end row fluid  below nav -->
+
+				</div> <!--end big containter fluid everything below nav MAINFRAME-->
+
+
+
+<!--***********************************************************************SCRIPT-->
+		<script src="js/jquery.js"></script>
+	    <script src="js/bootstrap-transition.js"></script>
+	    <script src="js/bootstrap-alert.js"></script>
+	    <script src="js/bootstrap-modal.js"></script>
+	    <script src="js/bootstrap-dropdown.js"></script>
+	    <script src="js/bootstrap-scrollspy.js"></script>
+	    <script src="js/bootstrap-tab.js"></script>
+	    <script src="js/bootstrap-tooltip.js"></script>
+	    <script src="js/bootstrap-popover.js"></script>
+	    <script src="js/bootstrap-button.js"></script>
+	    <script src="js/bootstrap-collapse.js"></script>
+	    <script src="js/bootstrap-typeahead.js"></script>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+
+<!--***********************************************************************HOTWIRED-->
+ 	
+			<script src="js/myJava working.js"></script>
+		
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+			<script src="js/jquery.dlmenu.js"></script>
+	
+		
+
+			<script>
+				$(function() {
+				$( '#dl-menu' ).dlmenu({
+					animationClasses : { classin : 'dl-animate-in-2', classout : 'dl-animate-out-2' }
+				});
+			});
+			</script>
+			<script>
+				$(function() {
+				$( '#dl-menu2' ).dlmenu({
+					animationClasses : { classin : 'dl-animate-in-2', classout : 'dl-animate-out-2' }
+				});
+			});
+				$('#addModal').modal(options);
+				
+
+			</script>
+			<script src="http://tympanus.net/codrops/adpacks/csscustom.js"></script> 
+			<script src="http://tympanus.net/codrops/wp-content/plugins/oiopub-direct/js.php?type=banner&align=center&zone=1"></script>
+
+	</body>
+
+</html>
